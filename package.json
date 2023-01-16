@@ -4,7 +4,7 @@
   "description": "A minimal portfolio with Vanilla JavaScript",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d public",
+    "deploy": "gh-pages -d ./public",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./scripts/create-env.js && webpack --mode production --config webpack.config.js",
     "dev": "webpack --config webpack.config.dev.js",
