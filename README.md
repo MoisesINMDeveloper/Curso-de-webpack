@@ -1,1 +1,1 @@
-# curso-webpack-platzi
+# js-portfolio
