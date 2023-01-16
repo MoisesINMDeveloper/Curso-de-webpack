@@ -12,17 +12,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gndx/js-portfolio.git"
+    "url": "git+https://github.com/MoisesINMDeveloper/curso-webpack-platzi.git"
   },
   "keywords": [
     "javascript",
     "html",
     "css"
   ],
-  "author": "oscar barajas <oscar@gndx.dev>",
+  "author": "Moises Israel <moisesisraelnavarro@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gndx/js-portfolio/issues"
+    "url": "https://github.com/MoisesINMDeveloper/curso-webpack-platzi/tree/main/public"
   },
   "homepage": "https://github.com/gndx/js-portfolio#readme",
   "devDependencies": {
