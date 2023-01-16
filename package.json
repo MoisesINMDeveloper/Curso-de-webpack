@@ -4,10 +4,11 @@
   "description": "A minimal portfolio with Vanilla JavaScript",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d public",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./scripts/create-env.js && webpack --mode production --config webpack.config.js",
     "dev": "webpack --config webpack.config.dev.js",
-    "build:watch":"webpack --watch --config webpack.config.js"
+    "build:watch": "webpack --watch --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
     "css-minimizer-webpack-plugin": "^4.2.2",
     "dotenv-webpack": "^8.0.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.2",
     "stylus": "^0.59.0",
